@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Programming Linguist</string>
+    <string name="features">Features:</string>
+    <string name="advantages">Advantages:</string>
+    <string name="disadvantages">Disadvantages:</string>
+
+    <string name="question_template">What is the %1$s programming language known for?</string>
+    <string name="quiz_completed">Quiz completed!\nYour score:\n %1$d out of %2$d</string>
+    <string name="play_again">Play Again</string>
+    <string name="submit">Submit</string>
+    <string name="ready_to_take_a_quiz">"READY TO TAKE A QUIZ? "</string>
+    <string name="startquiz">START</string>
+
+    <string-array name="programming_languages">
+        <item>ic_java|
+            Java|
+            Renowned for its mature ecosystem, Java boasts a plethora of libraries and frameworks that facilitate streamlined development. Its object-oriented nature encourages modular and reusable code structures.|
+            Java, a robust and class-based object-oriented programming language, has served as a fundamental pillar for Android app development for years. Its architecture allows for platform independence, making it compatible with any device equipped with a Java Virtual Machine (JVM). |
+            Widespread adoption in the Android community, strong community support, and extensive documentation make Java a reliable choice for both novice and experienced developers|
+            However, Java does have its drawbacks, including verbosity, where the language can be more verbose compared to more modern counterparts, and the historical issue of null pointer exceptions, which can introduce challenges in application stability.
+        </item>
+        <item>ic_kotlin|Kotlin|
+            Notable features of Kotlin include its concise syntax, null safety, coroutines for asynchronous programming, and extension functions that reduce boilerplate code.|
+            Kotlin, introduced as an officially supported language for Android development in 2017, offers a more modern and concise alternative to Java. Designed to be fully interoperable with Java, it smoothly integrates with existing codebases while bringing a range of modern features to the table.|
+            Kotlin has gained popularity for its modern features, improved developer experience, and the ability to eliminate common issues like null pointer exceptions. It also provides seamless integration with existing Java projects.|
+            While Kotlin has seen rapid adoption, especially in new projects, there is a learning curve for developers new to the language. Additionally, its community, while growing, is not as extensive as Java\'s. </item>
+        <item>ic_cndk|
+            C/C++ with NDK|
+            C and C++ provide high performance, making them suitable for resource-intensive operations. The NDK enables the creation of native libraries that can be linked to Java-based Android applications. |
+            The Android Native Development Kit (NDK) allows developers to use languages like C and C++ for performance-critical tasks where direct control over system resources is paramount.|
+            Offers the advantage of portability, making it feasible to reuse code across different platforms. The ability to directly manipulate memory allows for fine-tuning performance.|
+            However, the use of C/C++ with the NDK introduces complexity and manual memory management, which can increase the risk of bugs and make development more challenging.
+        </item>
+        <item>ic_javascript|JavaScript with React Native|
+            The framework emphasizes code sharing, allowing developers to write a single codebase for both iOS and Android platforms. The hot reload feature speeds up the development cycle.|
+            React Native utilizes JavaScript and the React library to build cross-platform mobile applications with a native look and feel.|
+            React Native appeals to web developers with its use of familiar technologies, and the framework is known for its efficiency in development.|
+            However, the performance of React Native apps may not match that of fully native applications, as they rely on a bridge to communicate with native modules.
+        </item>
+        <item>ic_dart| Dart (Flutter)|
+            Flutter stands out with features like hot reload for faster development iterations and an expressive UI framework for creating visually appealing applications.|
+            Flutter, developed by Google, is a UI toolkit that uses the Dart programming language for building natively compiled applications across various platforms.|
+            The framework enables the creation of a single codebase for multiple platforms, and its growing community contributes to its ecosystem.|
+            While the Flutter community is expanding, it is still relatively smaller compared to some other frameworks.
+        </item>
+        <item>ic_swift| Swift (iOS Development)|
+            Swift combines performance with readability, making it developer-friendly. It includes features like optionals for safer code, type inference for concise syntax, and automatic memory management with Automatic Reference Counting (ARC). Swift also supports functional programming paradigms, enhancing code expressiveness.|
+            Swift is a powerful and intuitive programming language developed by Apple for iOS, macOS, watchOS, and tvOS app development. It was introduced in 2014 as a replacement for Objective-C, offering modern language features while maintaining compatibility with existing Cocoa and Cocoa Touch frameworks.|
+            iOS development with Swift provides a modern, safe, and efficient programming experience, combining performance with readability and seamless interoperability with existing Objective-C code.|
+            Swift\'s learning curve and a growing community may pose challenges for developers transitioning from other languages.
+        </item>
+        <item>ic_c| C# (Xamarin)|
+            Key features include code sharing between platforms and access to native APIs, providing a balance between cross-platform development and native capabilities. |
+            Xamarin facilitates cross-platform app development using the C# programming language and the .NET framework. It allows developers to write code once and deploy it on different platforms. |
+            Xamarin is favored by developers with a background in .NET, enabling them to leverage their existing skills. Code sharing across platforms reduces development time and effort.|
+            The Xamarin community is relatively smaller compared to native languages, and there may be limitations in terms of platform-specific features.</item>
+        <item>ic_lua| Lua (Corona SDK)|
+            Lua, known for its lightweight nature, allows for quick and efficient game development, making Corona SDK suitable for 2D gaming projects. |
+            Corona SDK utilizes the Lua scripting language to facilitate the rapid development of 2D mobile games.|
+            Developers appreciate the speed at which they can create games, and the framework is tailored for the specific requirements of gaming applications.|
+            However, its specialization in gaming may limit its applicability for broader mobile app development needs.</item>
+        <item>ic_html| HTML, CSS, JavaScript with Apache Cordova (PhoneGap)|
+            Cordova leverages the familiar web technology stack, allowing developers to reuse existing skills and code. |
+            Apache Cordova, commonly known as PhoneGap, enables the development of cross-platform mobile applications using web technologies, including HTML, CSS, and JavaScript. |
+            The framework provides a quick and straightforward way to create cross-platform apps with a single codebase. |
+            Performance may not match that of fully native applications, as Cordova relies on web views for rendering, and there may be limitations in accessing certain native features.
+        </item>
+        <item>ic_python| Python (Kivy)|
+            Kivy is an open-source Python library designed for the development of multitouch applications, emphasizing cross-platform functionality. |
+            Kivy provides an open-source solution for building applications with support for multitouch gestures and a range of input devices. |
+            Python developers find Kivy appealing due to its simplicity and the ability to quickly prototype and develop applications. |
+            However, the framework has a more limited community compared to other cross-platform options, potentially impacting available resources and support.</item>
+        <item>ic_go| Go|
+            Go is known for its fast compilation times, efficient execution, and built-in support for concurrent programming.|
+            Go, or Golang, is a compiled programming language designed for simplicity, efficiency, and robust concurrency support.|
+            Developers appreciate Go\'s simplicity, and its strong support for concurrency makes it suitable for building scalable and efficient applications.|
+            While Go is gaining popularity, its ecosystem for mobile development is relatively smaller compared to more established languages and frameworks.</item>
+    </string-array>
+
+</resources>
